@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+bigjoe:
+  name: Big Joe
+  email: bigjoe@gmail.com
+  password: 12345
+
+fatmikey:
+  name: Fat Mikey
+  email: fatmikey@gmail.com
+  password: 12345
+
+littlejoey:
+  name: Little Joe
+  email: littlejoe@gmail.com
+  password: 12345

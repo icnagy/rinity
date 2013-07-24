@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+res_one:
+  trip: bud_deb
+  seat: 1
+  is_accepted: false
+  passenger: fatmikey
+
+res_two:
+  trip: bud_deb
+  seat: 2
+  is_accepted: true
+  passenger: littlejoey

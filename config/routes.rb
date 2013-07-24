@@ -1,4 +1,16 @@
 Rinity::Application.routes.draw do
+  resources :reservations
+
+
+  resources :cars
+
+
+  resources :users
+
+
+  resources :trips
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

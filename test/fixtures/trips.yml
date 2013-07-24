@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+bud_deb:
+  start_address: Budapest
+  destination_address: Debrecen
+  trip_date: 2013-07-27 10:00:00
+  is_recurring: false
+  price: 9.99
+  car: bmw3
+  available_seats: bmw3.seats
+  user: bigjoe
+
+deb_bud:
+  start_address: Debrecen
+  destination_address: Budapest
+  trip_date: 2013-07-27 10:00:00
+  is_recurring: false
+  price: 9.99
+  car: fordtransporter
+  available_seats: fordtransporter.seats
+  user: littlejoey

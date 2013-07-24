@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Car:</b>
+  <%= @reservation.trip_id %>
+</p>
+
+<p>
+  <b>Passenger:</b>
+  <%= @reservation.passenger_id %>
+</p>
+
+<p>
+  <b>Seat:</b>
+  <%= @reservation.seat %>
+</p>
+
+<p>
+  <b>Is accepted:</b>
+  <%= @reservation.is_accepted %>
+</p>
+
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>

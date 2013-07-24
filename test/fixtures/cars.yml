@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+bmw3:
+  name: BMW 325i
+  description: Nice one
+  seats: 5
+  user: bigjoe
+
+mercedes:
+  name: Mercedes CLK 600
+  description: Bigone
+  seats: 5
+  user: fatmikey
+
+fordtransporter:
+  name: Ford Transporter
+  description: Transporter
+  seats: 9
+  user: littlejoe
