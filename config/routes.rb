@@ -5,7 +5,11 @@ Rinity::Application.routes.draw do
   resources :cars
 
 
-  resources :users
+  resources :users do
+    member do
+      get 'notify'
+    end
+  end
 
 
   resources :trips

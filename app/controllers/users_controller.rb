@@ -80,4 +80,10 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def notify
+    @user = User.find(params[:id])
+    @user.notify
+    render :text => "OK"
+  end
 end

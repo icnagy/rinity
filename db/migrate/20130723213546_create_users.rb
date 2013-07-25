@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.string :facebook_id
       t.string :password
+      t.string :device
       t.point :last_position, :geographic => true
 
       t.timestamps

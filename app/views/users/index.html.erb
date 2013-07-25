@@ -5,6 +5,7 @@
     <th>Name</th>
     <th>Email</th>
     <th>Facebook</th>
+    <th>Device ID</th>
     <th>Password</th>
     <th></th>
     <th></th>
@@ -16,6 +17,10 @@
         <td><%= user.name %></td>
         <td><%= user.email %></td>
         <td><%= user.facebook_id %></td>
+        <td><%= user.device %></td>
+        <% if user.device %>
+            <td><%= link_to 'Notify', notify_user_path(user), :remote => true %></td>
+        <% end %>
         <td><%= user.password %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>

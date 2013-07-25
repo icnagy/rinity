@@ -95,6 +95,7 @@ ActiveRecord::Schema.define(:version => 20130723220624) do
     t.string "email"
     t.string "facebook_id"
     t.string "password"
+    t.string "device"
     t.spatial "last_position", :limit => {:srid => 4326, :type => "point", :geographic => true}
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
